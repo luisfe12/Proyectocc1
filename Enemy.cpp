@@ -42,5 +42,18 @@ void Enemy::PosicionPer(float ex,float ey){
 	px=ex;
 	py=ey;
 }
+bool Enemy::colision(float px, float py, float x, float y ){
+	int re=(tamenemy/2)
+	int rp=(tamper/2);
+	int dx=(x-px);
+	int dy=(y-py);
+
+	if(((dx-(re-rp)) && (dx-(re-rp)))>=0);
+		return false
+	else;
+	 	return true
+
+	
+}
 
 
